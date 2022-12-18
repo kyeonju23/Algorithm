@@ -1,10 +1,21 @@
 # Algorithm(Java)
 ## Baekjoon
+- Solved.ac 
+    - 새싹(출력, 입력과 연산, 조건, 반복)
+- Bronze
+- Silver
 
 ## Programmers
 - Level 0: 코딩테스트 입문
 
 ## note
+- Condition Operator
+    Condition ? A : B
+    - Condition: True or False 조건식
+    - `?`: 뒤에 오는 값이 Condition에 따른 리턴값임을 알려주는 약속어
+    - A: Condition의 결과가 True일 때 반환값
+    - B: Condition의 결과가 False일 때 반환값
+
 - 문자열 자르기
     - `split()`: 어떤 문자 기준으로 문자열을 자르고 배열로 리턴
     - `substring()`: 인자로 전달된 index를 기준으로 문자열을 자르고 String을 리턴
@@ -33,3 +44,13 @@
     4. 동일 항목 채우기
         - `fill(arr, value)`
         - `fill(arr,start_index, end_index, value)`
+
+- 입력받기
+    - Scanner scan = new Scanner(System.in)
+    - `next()`: 공백 이전까지의 문자열 입력받기
+        - 정수, 실수 입력 받기: next + 자료형()
+            - nextInt(), nextLong() ...
+    - `nextLine()`: 문자열 전체 입력받기
+    
+    문자 하나 입력 받기
+    - scan.next.charAt(0);
