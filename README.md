@@ -1,7 +1,7 @@
 # Algorithm(Java)
 ## Baekjoon
 - Solved.ac 
-    - 새싹(출력, 입력과 연산, 조건, 반복)
+    - 새싹(출력, 입력과 연산, 조건, 반복, 빠른 입출력, 배열)
 - Bronze
 - Silver
 
